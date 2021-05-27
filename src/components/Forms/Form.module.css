@@ -1,0 +1,55 @@
+.form {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 80%;
+    max-width: 50rem;
+}
+
+.form form {
+    display: block;
+}
+
+.form form input {
+    width: 100%;
+    margin-bottom: 1vh;
+    display: block;
+    padding: 0;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.form form input:focus {
+    outline: none;
+    border-color: steelblue;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 0.5vh;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.form input[type="file"] {
+    display: none;
+}
+
+.form button[type="button"]  {
+    background-color: steelblue;
+    border-radius: 0.33rem;
+    height: 5vh;
+    width: 25%;
+    margin-left: 55%;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.form button[type="submit"]  {
+    background-color: powderblue;
+    border-radius: 0.33rem;
+    height: 5vh;
+    width: 15%;
+    margin-left: 5%;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}

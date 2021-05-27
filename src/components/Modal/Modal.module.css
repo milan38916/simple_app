@@ -1,0 +1,65 @@
+.modal {
+    width: 60vw;
+    height: 80vh;
+    z-index: 50;
+    position: fixed;
+    background-color: white;
+    left: 20%;
+    margin-top: 10vh;
+    min-width: 30rem;
+}
+
+.modal h1 {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 29;
+    top: 0;
+}
+
+.modal button {
+    width: 20vw;
+    height: 5vh;
+    bottom: 25vh;
+    border-radius: 0.25rem;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    right: 5vw;
+    bottom: 5vh;
+}
+
+.modal p {
+    width: 50vw;
+    margin-left: 5vw;
+    text-align: left;
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.modal div {
+    margin: auto;
+    display: block;
+    margin-top: 2vh;
+    max-width: 31vw;
+    max-height: 41vh;
+    height: 41vh;
+}
+
+.modal div img {
+    width: 100%;
+    display: block;
+    height: 100%;
+}

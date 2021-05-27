@@ -1,0 +1,61 @@
+.list {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 80%;
+    max-width: 50rem;
+}
+
+p {
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.list ul {
+    width: 80%;
+    padding: 2vmax;
+    margin: 0.5rem auto;    
+}
+
+.list ul li {
+    width: 100%;
+    list-style: none;
+}
+
+.list ul li p {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 0.25vh;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.list ul li div {
+    margin: auto;
+    display: block;
+    max-width: 60%;
+}
+
+.list ul li section {
+    display: block;
+    max-width: 97%;
+    margin: auto;
+    padding-top: 1vh;
+}
+
+.list ul li div img {
+    max-width: 95%;
+    max-height: 95%;
+    padding: 2.5%;
+    display: block;
+    margin: auto;
+}
+
+.card {
+    background-color: dimgray;
+    margin-top: 1rem;
+}
