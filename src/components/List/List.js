@@ -53,7 +53,7 @@ const List = (props) => {
                         </Card>
                     ))}
                 </ul>}
-                {isEmpty && <p>List is empty!!!</p>}
+                {isEmpty && <p>Bez podnetov</p>}
             </Card>
             {showDetail && <Modal details={actualItemDetails} onClose={onClose}></Modal>}
         </React.Fragment>
