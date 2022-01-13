@@ -15,7 +15,8 @@ p {
 .list ul {
     width: 80%;
     padding: 2vmax;
-    margin: 0.5rem auto;    
+    margin: 0.5rem auto;
+    padding: 1rem;    
 }
 
 .list ul li {
